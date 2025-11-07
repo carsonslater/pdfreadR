@@ -1,3 +1,10 @@
+# Carson Slater ----------------------------------------------------------
+#
+# Date Create: November 7, 2025
+# Description: Helper function for giving a pdf to an LLM for RAG.
+#
+# ------------------------------------------------------------------------
+
 process_single_paper <- function(obj, id, total) {
   file_path <- obj |> pull(1) |> pluck(1)
   file_name <- obj |> pull(file_name) |> pluck(1)

@@ -1,3 +1,11 @@
+# Carson Slater ----------------------------------------------------------
+#
+# Date Create: November 7, 2025
+# Description: Takes a Zotero exported RDF library and retrieves all of the
+# pdfs from it, and places them all in one folder.
+#
+# ------------------------------------------------------------------------
+
 library("fs")
 
 # Path to your exported Zotero collection
