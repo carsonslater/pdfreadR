@@ -1,0 +1,4 @@
+*.html
+*.wal
+*duckdb*
+*.rdf
