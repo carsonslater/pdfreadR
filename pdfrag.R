@@ -104,128 +104,36 @@ llm_resp_list <- with_progress({
     })
 })
 
-output_tbl <- list_rbind(llm_resp_list) |>
-  mutate(
-    email_body = md(glue(
+llm_resp_list_clean <- map(llm_resp_list, \(df) {
+  df |> mutate(llm_resp = as.character(llm_resp))
+})
+
+output_tbl <- bind_rows(llm_resp_list_clean)
+
+# Use pmap to iterate over rows more elegantly
+markdown_sections <- output_tbl |>
+  pmap_chr(function(
+    file_name,
+    file_extension,
+    file_size,
+    file_date,
+    llm_resp,
+    ...
+  ) {
+    glue::glue(
       "
-      Please see summary for below:
+# {file_name}
 
-      Name: {file_name}
-
-      Extension: {file_extension}
-
-      Size: {file_size} bytes
-
-      Summary Response:
-
-      {llm_resp}
-    "
-    ))
-  )
-
-row_to_md <- function(row) {
-  glue::glue(
-    "
-# {row$file_name}
-
-**Extension:** {row$file_extension}
-**Size:** {row$file_size}
-**Modified:** {row$file_date}
+**Extension:** {file_extension}
+**Size:** {file_size}
+**Modified:** {format(file_date, '%Y-%m-%d %H:%M:%S')}
 
 ## Summary
 
-{row$llm_resp}
-  "
-  )
-}
+{llm_resp}
+      "
+    )
+  })
 
-markdown_sections <- map_chr(1:nrow(output_tbl), function(i) {
-  row_to_md(output_tbl[i, ])
-})
-markdown_doc <- paste(markdown_sections, collapse = "\n---\n")
+markdown_doc <- paste(markdown_sections, collapse = "\n\n---\n\n")
 write_file(markdown_doc, here::here("test_papers_output.md"))
-
-# Depracated Code --------------------------------------------------------
-
-# VERSION 1.0
-# llm_resp_list <- with_progress({
-#   p <- progressor(along = file_split_tbl)
-
-#   file_split_tbl[1:3] |>
-#     imap(
-#       .f = function(obj, id) {
-#         file_path <- obj |> pull(1) |> pluck(1)
-#         file_name <- obj |> pull(file_name) |> pluck(1)
-
-#         p(sprintf("Processing %s", file_name)) # Update progress
-
-#         store_location <- "pdf_ragnar_duckdb"
-#         store <- ragnar_store_create(
-#           store_location,
-#           embed = \(x) embed_ollama(x, model = "nomic-embed-text:latest"),
-#           overwrite = TRUE
-#         )
-#         chunks <- file_path |>
-#           read_as_markdown() |>
-#           markdown_chunk()
-#         ragnar_store_insert(store, chunks)
-#         ragnar_store_build_index(store)
-#         client <- chat_ollama(
-#           model = "llama3.2",
-#           system_prompt = system_prompt,
-#           params = list(temperature = 0.1)
-#         )
-#         ragnar_register_tool_retrieve(chat = client, store = store)
-#         user_prompt <- glue("Please summarize the paper: {file_path}")
-#         res <- client$chat(user_prompt, echo = "all")
-#         rec <- obj |> mutate(llm_resp = res)
-#         return(rec)
-#       }
-#     )
-# })
-
-# VERSION 1.1
-# llm_resp_list <- with_progress({
-#   p <- progressor(along = file_split_tbl)
-
-#   file_split_tbl |>
-#     imap(function(obj, id) {
-#       file_path <- obj |> pull(1) |> pluck(1)
-#       file_name <- obj |> pull(file_name) |> pluck(1)
-
-#       p(sprintf("Processing %s", file_name))
-
-#       # This tryCatch is what makes it continue
-#       tryCatch(
-#         {
-#           store_location <- paste0("pdf_ragnar_duckdb_", id)
-#           store <- ragnar_store_create(
-#             store_location,
-#             embed = \(x) embed_ollama(x, model = "nomic-embed-text:latest"),
-#             overwrite = TRUE
-#           )
-
-#           chunks <- file_path |> read_as_markdown() |> markdown_chunk()
-#           ragnar_store_insert(store, chunks)
-#           ragnar_store_build_index(store)
-
-#           client <- chat_ollama(
-#             model = "llama3.2",
-#             system_prompt = system_prompt,
-#             params = list(temperature = 0.1)
-#           )
-
-#           ragnar_register_tool_retrieve(chat = client, store = store)
-#           user_prompt <- glue("Please summarize the paper: {file_path}")
-#           res <- client$chat(user_prompt, echo = "all")
-
-#           obj |> mutate(llm_resp = res)
-#         },
-#         error = function(e) {
-#           # Instead of stopping, return error message
-#           cat(sprintf("\n❌ Failed: %s - %s\n", file_name, e$message))
-#           obj |> mutate(llm_resp = paste("ERROR:", e$message))
-#         }
-#       )
-#     })
-# })
