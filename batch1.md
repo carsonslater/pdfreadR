@@ -1,30 +1,3 @@
-# 2025 - (PDF) The Regularized Low Pass Filter.pdf
-
-**Extension:** pdf **Size:** 241K **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-This is a research paper on the topic of regularization in signal processing, specifically in the context of band-limited extrapolation. The authors propose a new regularization technique for band-limited extrapolation and present experimental results to demonstrate its effectiveness.
-
-Here's a summary of the main points:
-
-1. **Background**: Band-limited extrapolation is an ill-posed problem that involves estimating a signal from noisy measurements.
-2. **Regularization technique**: The authors propose a regularization technique based on the regularized Fourier transform, which is a smoothing functional that minimizes the error between the estimated and true signals.
-3. **Convergence property**: The authors prove that the regularized filtering formula converges to the exact Fourier transform as the regularization parameter approaches zero.
-4. **Numerical results**: The authors present experimental results comparing the performance of the proposed regularization technique with a standard convolution method.
-
-The paper appears to be well-written and provides a clear explanation of the regularization technique and its convergence property. However, it may be of interest to readers who are familiar with signal processing and regularization techniques.
-
-Some potential areas for improvement:
-
-1. **Context**: The paper assumes some background knowledge in signal processing and regularization techniques. Readers without this expertise may find the introduction challenging.
-2. **Experimental design**: While the experimental results are presented, they may not be sufficient to fully demonstrate the effectiveness of the proposed technique. Additional experiments or comparisons with other methods could strengthen the paper's conclusions.
-3. **Theoretical contributions**: The paper primarily focuses on the practical application of regularization techniques. Readers interested in theoretical contributions may find the paper lacking in this regard.
-
-Overall, the paper presents a well-written and well-structured contribution to the field of signal processing and regularization techniques.
-
-------------------------------------------------------------------------
-
 # Adamowski et al. - 2012 - Comparison of multiple linear and nonlinear regression, autoregressive integrated moving average, ar.pdf
 
 **Extension:** pdf **Size:** 1.43M **Modified:** 2025-11-07 14:11:37
@@ -173,62 +146,6 @@ The study demonstrates the utility of their activity discovery method using a re
 
 ------------------------------------------------------------------------
 
-# Cominola et al. - 2015 - Benefits and challenges of using smart meters for advancing residential water demand modeling and ma.pdf
-
-**Extension:** pdf **Size:** 738K **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-**Type:** Review paper
-
-**Paper Summary:**
-
-This paper reviews 134 studies that contributed new methodologies and tools in one or more of the steps of residential water demand modeling and management using smart meters. The authors identify four main blocks underlying the general procedure: data gathering, water end-uses characterization, user modeling, and personalized water demand management systems (WDMS). They also outline several research challenges that need to be addressed to move the application of smart meters forward over the next decade.
-
-The studies reviewed cover various aspects of residential water demand modeling and management, including data gathering, automatic disaggregation procedures, centralized or distributed information systems, impacts on household privacy, real-world scalability of high-resolution networks, unsupervised disaggregation algorithms, higher accuracy in reproducing timings and frequencies, matching observed water consumption profiles with potential drivers of users' behaviors, identification of spatial patterns across geographical areas, validation of agent-based behavioral models, testing experimental trials and gamification platforms, and developing integrated models for water and water-related energy.
-
-**Table:**
-
-| **Paper**              | **Type of Water Use** | **Data Resolution**                             | **Flow Rate Unit(s)** | **Number of Homes** | **Goals**                                                                                                          | **Methods**                      | **Results**                                                 |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Cominola et al. (2015) | Residential           | High-resolution (e.g., 1-minute, hourly, daily) | L/min, gallons/hour   | Not specified       | Review and classification of existing methodologies and tools for residential water demand modeling and management | Systematic review of 134 studies | Identification of research challenges and gaps in the field |
-
-**Model Behavior Rules:**
-
-- Data Resolution: High-resolution data is used to analyze water consumption patterns.
-- Flow Rate Unit(s): L/min and gallons/hour are used to measure water flow.
-- Number of Homes: Not specified, as the study focuses on a general review of existing methodologies and tools.
-- Goals: The primary goal is to identify research challenges and gaps in the field of residential water demand modeling and management using smart meters.
-- Methods: Systematic review of 134 studies, including data gathering, automatic disaggregation procedures, centralized or distributed information systems, impacts on household privacy, real-world scalability of high-resolution networks, unsupervised disaggregation algorithms, higher accuracy in reproducing timings and frequencies, matching observed water consumption profiles with potential drivers of users' behaviors, identification of spatial patterns across geographical areas, validation of agent-based behavioral models, testing experimental trials and gamification platforms, and developing integrated models for water and water-related energy.
-
-------------------------------------------------------------------------
-
-# Deb et al. - 2002 - A fast and elitist multiobjective genetic algorithm NSGA-II.pdf
-
-**Extension:** pdf **Size:** 709K **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-**Type:** Review paper
-
-**Paper Summary:**
-
-The paper "A Fast and Elitist Multiobjective Genetic Algorithm NSGA-II" by Kalyanmoy Deb et al. (2002) presents a fast and elitist multiobjective genetic algorithm called NSGA-II. The authors aim to alleviate the difficulties of existing multiobjective evolutionary algorithms, such as nondominated sorting approach, nonelitism, and sharing parameter specification.
-
-The paper discusses the limitations of existing MOEAs and proposes a new approach that combines nondominated sorting with a selection operator to create a mating pool. The algorithm also uses crowding distance to maintain diversity in the population.
-
-The authors present simulation results on difficult test problems, showing that NSGA-II can find better spread of solutions and convergence near the true Pareto-optimal front compared to other MOEAs. They also modify the definition of dominance to solve constrained multiobjective problems efficiently.
-
-**Table:**
-
-| **Paper**         | **Type of Water Use** | **Data Resolution** | **Flow Rate Unit(s)** | **Number of Homes** | **Goals**                                                                                 | **Methods**                                                 | **Results**                                                                                                            |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Deb et al. (2002) | \-                    | \-                  | \-                    | \-                  | Multiobjective optimization and multiple constraint handling with evolutionary algorithms | Nondominated sorting, selection operator, crowding distance | NSGA-II can find better spread of solutions and convergence near the true Pareto-optimal front compared to other MOEAs |
-
-Note: The table is not directly applicable to the provided paper, as it deals with multiobjective optimization in general, rather than water event disaggregation or outdoor watering event detection.
-
-------------------------------------------------------------------------
-
 # Deoreo and Mayer - 2012 - Insights into declining single‐family residential water demands.pdf
 
 **Extension:** pdf **Size:** 736K **Modified:** 2025-11-07 14:11:37
@@ -316,36 +233,6 @@ This study aims to explore the use of Advanced Metering Infrastructure (AMI) dat
 
 ------------------------------------------------------------------------
 
-# Froehlich et al. - 2009 - HydroSense infrastructure-mediated single-point sensing of whole-home water activity.pdf
-
-**Extension:** pdf **Size:** 1.56M **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-**Type:** Review paper
-
-**Paper Summary:**
-
-This paper presents HydroSense, a low-cost and easily-installed single-point sensor of pressure within a home's water infrastructure. The authors aim to sense human activity in the physical world using existing infrastructures, such as water pipes. They evaluate their approach using data collected in ten homes and achieve 97.9% aggregate accuracy in identifying fixture events.
-
-The paper focuses on infrastructure-mediated sensing of home water activity, which is essential for various ubiquitous computing applications. The authors identify individual water fixtures within a home using unique pressure waves that propagate to the sensor when valves are opened or closed. They also estimate the amount of water being used at each fixture based on the magnitude of the resulting pressure drop.
-
-The authors propose a template-based hierarchical classifier to associate valve open and close events with individual fixtures in a home. They use four distance metrics (matched filter, matched derivative filter, real Cepstrum, and simple mean squared error) to filter potential templates and classify unknown events. The paper evaluates the fixture classification using an experimental design across multiple homes.
-
-**Table:**
-
-| **Paper**               | **Type of Water Use** | **Data Resolution** | **Flow Rate Unit(s)** | **Number of Homes** | **Goals**                                             | **Methods**                                                   | **Results**                                            |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Froehlich et al. (2009) | Home water activity   | 1-minute            | L/min, gallons/hour   | 10 homes            | Identify individual fixtures and estimate water usage | Template-based hierarchical classifier, four distance metrics | 97.9% aggregate accuracy in identifying fixture events |
-
-**Model Behavior Rules:**
-
-- **Type:** Review paper
-- **Paper Summary:** This paper presents HydroSense, a low-cost and easily-installed single-point sensor of pressure within a home's water infrastructure. The authors aim to sense human activity in the physical world using existing infrastructures, such as water pipes.
-- **Table:** The table provides an overview of the study's methodology, results, and key findings.
-
-------------------------------------------------------------------------
-
 # Gourmelon et al. - 2021 - Implications of Experiment Set-Ups for Residential Water End-Use Classification.pdf
 
 **Extension:** pdf **Size:** 1.1M **Modified:** 2025-11-07 14:11:37
@@ -394,68 +281,6 @@ The results show that coarser temporal resolutions can improve model performance
 | Cominola et al. (2020) | Residential water use | Daily                 | L/min, gallons/hour   | 762 homes           | Analyze time-of-day and day-of-week distribution of showers | Data visualization                               | Patterns of consumption align with study findings            |
 
 Note: The table only includes the information relevant to the original paper summary.
-
-------------------------------------------------------------------------
-
-# Hussien et al. - 2016 - Assessing and Modelling the Influence of Household Characteristics on Per Capita Water Consumption.pdf
-
-**Extension:** pdf **Size:** 2.35M **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-**Type:** Review paper
-
-**Paper Summary:**
-
-This study assesses and models the influence of household characteristics on per capita water consumption. The research aims to identify the factors that affect water usage in households, with a focus on developing a model that can predict per capita water consumption based on demographic and physical characteristics of the household.
-
-The study uses data from 407 households in Malaysia, which are divided into three income groups: low, medium, and high. The researchers use multiple linear regression (STEPWISE) and evolutionary polynomial regression (EPR) to develop models that predict per capita water consumption based on various household characteristics, including demographic factors such as the number of children, elders, adult males, and females, and physical factors such as total household built-up area, garden area, number of rooms, and per capita income.
-
-The results show that the developed models are sensitive to per capita income, number of children, and number of adult males in the households. The study also explores four alternative scenarios on domestic water demand estimation, including market forces, fortress world, great transition (a), and others.
-
-**Table 8: Coefficients of determination (R2) of the final regression models**
-
-The table shows the R2 values for the developed models, which indicate the proportion of variance in per capita water consumption that is explained by the model. The results show that the EPR models have higher R2 values than the STEPWISE models, indicating that they are more accurate in predicting per capita water consumption.
-
-**Conclusion:**
-
-The study provides insights into the factors that affect water usage in households and develops a model that can predict per capita water consumption based on demographic and physical characteristics of the household. The results have implications for water resources management and policy-making, particularly in developing countries where water demand is often uncertain and difficult to predict.
-
-**References:**
-
-The study references several other research papers and reports, including those by Cevik, Cheesman, Bennett, Doglioni, Mancarella, Simeone, Giustolisi, El-Baroudy, Elshorbagy, Carey, Savic, Ercin, Hoekstra, Estrela, Menéndez, Dimas, Leonard, Ovesen, Fehér, Gato, Simonovic, Fahmy, Sivakumaran, Aramaki, Stephenson, United Nations, Yasar, Bilgili, and Simsek.
-
-------------------------------------------------------------------------
-
-# Johnson and Belitz - 2012 - A remote sensing approach for estimating the location and rate of urban irrigation in semi-arid clim.pdf
-
-**Extension:** pdf **Size:** 2.89M **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-**Type:** Review paper
-
-**Paper Summary:**
-
-This paper presents a new approach for estimating the location and rate of urban irrigation in semi-arid climates using remote sensing techniques. The authors use a combination of satellite imagery, air photos, climatic records, and land-use maps to identify irrigated areas and estimate the monthly rate of irrigation being applied to those areas. The approach provides a repeatable methodology at a 1/3 km2 scale across a large urbanized area (500 km2). The authors use a linear-mixture model to estimate the fraction of irrigated landscaping in urban areas, which is then used to calculate the monthly rate of irrigation.
-
-The study focuses on the San Fernando Valley in Southern California and uses data from 29 satellite scenes, air photos, and a land-use map. The authors identify two land-cover categories: impervious hardscape (consisting of rooftops, driveways, side-walks, streets, etc.) and irrigated landscaping (defined as areas under or potentially under the influence of irrigation). They also use a three-endmember linear-mixture model to estimate the NDVI values for these endmembers.
-
-The results show that the approach is successful in estimating the location and rate of urban irrigation, with an accuracy of 95% compared to hand-digitized data. The authors conclude that this approach provides a useful tool for monitoring water usage at the regional and sub-watershed scales.
-
-**Table:**
-
-| **Paper**                 | **Type of Water Use** | **Data Resolution** | **Flow Rate Unit(s)** | **Number of Homes** | **Goals**                                      | **Methods**                                 | **Results**                                     |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Johnson and Belitz (2012) | Irrigation            | 1/3 km2             | Not specified         | Not specified       | Estimate location and rate of urban irrigation | Linear-mixture model, three-endmember model | Accuracy of 95% compared to hand-digitized data |
-
-**Model Behavior Rules:**
-
-- Flow Rate Unit(s): Not specified in document.
-- Number of Homes: Not specified in document.
-- Goals: Estimate location and rate of urban irrigation.
-- Methods: Linear-mixture model, three-endmember model.
-- Results: Accuracy of 95% compared to hand-digitized data.
 
 ------------------------------------------------------------------------
 
@@ -548,33 +373,6 @@ The study also explored the differences in water demand between customers with o
 
 ------------------------------------------------------------------------
 
-# Lunstad and Sowby - 2024 - Smart Irrigation Controllers in Residential Applications and the Potential of Integrated Water Distr.pdf
-
-**Extension:** pdf **Size:** 726K **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-**Type:** Review paper
-
-**Paper Summary:**
-
-This review paper by Lunstad and Sowby (2024) examines the effectiveness of smart irrigation controllers in residential applications. The authors conducted a comprehensive review of 80 studies on residential applications of smart irrigation controllers, which demonstrated typical savings of 15% among general users and more than 40% among indulgent users. Soil moisture sensors paired with rain sensors have shown the highest water savings potential when connected with smart irrigation controllers.
-
-The study highlights the need for further research on peak demand reduction, centralized communication, data verifiability, and human factors of landscape management. The authors also discuss the potential of integrated water distribution systems (IWDS), which could utilize smart irrigation controllers as direct load control devices at customer endpoints and interface with advanced metering infrastructure (AMI) and supervisory control and data acquisition (SCADA) systems at a central location.
-
-**Table:**
-
-| **Paper**                        | **Type of Water Use**      | **Data Resolution** | **Flow Rate Unit(s)** | **Number of Homes**              | **Goals**                                                        | **Methods**                                          | **Results**                                                                         |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Lunstad and Sowby (2024)         | Residential irrigation     | 1-minute            | L/min                 | Not specified                    | Reduce water demand, improve peak demand management              | Review of 80 studies on smart irrigation controllers | Typical savings of 15% among general users and more than 40% among indulgent users. |
-| Davis et al. (2007)              | Conference ET, RS, and SMS | 1-minute            | L/min                 | 72 university plots in fine sand | Evaluate effectiveness of rain sensors and soil moisture sensors | Field study with 27 homes                            | Savings of 0-63% with SMS, 7-33% with RS, and 36-59% with ET.                       |
-| Cárdenas-Lailhacar et al. (2008) | Journal ET and RS          | 1-minute            | L/min                 | 72 university plots in fine sand | Evaluate effectiveness of rain sensors and soil moisture sensors | Field study with 27 homes                            | Savings of 0-63% with SMS, 7-33% with RS, and 36-59% with ET.                       |
-| Vick et al. (2017)               | Journal ET and SMS         | 1-minute            | L/min                 | 2,641 homeowners                 | Evaluate effectiveness of smart irrigation controllers           | 3-year field study with 36 homes                     | Savings of 30% with SMS, average 21% with ET.                                       |
-
-Note: The table only includes a few examples of studies mentioned in the review paper and is not an exhaustive list of all 80 studies reviewed by Lunstad and Sowby (2024).
-
-------------------------------------------------------------------------
-
 # Madias et al. - 2022 - The role of knowledge about water consumption in the context of intentions to use IoT water metrics.pdf
 
 **Extension:** pdf **Size:** 957K **Modified:** 2025-11-07 14:11:37
@@ -627,16 +425,6 @@ The proposed weighted variation of information distance measure for comparing Ga
 - **Type:** Review paper
 - **Paper Summary:** This article addresses the need to divide a population of water utility customers into groups based on their similarities and differences, using only the measured flow data collected by water meters.
 - **Table:** The table provides an overview of the study's methodology, including the type of water use analyzed, data resolution, flow rate units, number of homes included in the study, primary research objectives or questions addressed, analytical or modeling techniques applied, and key findings or conclusions derived from the study's analysis.
-
-------------------------------------------------------------------------
-
-# Mayer - RESIDENTIAL END USES OF WATER.pdf
-
-**Extension:** pdf **Size:** 4.9M **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
 ------------------------------------------------------------------------
 
