@@ -133,7 +133,7 @@ The study demonstrates the utility of their activity discovery method using a re
 
 | **Paper**                    | **Type of Water Use**   | **Data Resolution** | **Flow Rate Unit(s)** | **Number of Homes** | **Goals**                                               | **Methods**                                             | **Results**                                             |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-| Cardell-Oliver et al. (2013) | Residential, Irrigation | Hourly              | Litres/hour           | 35,000              | Discover water use activities from smart meter readings | Hierarchical clustering, Automatic rule-based labelling | Significant and meaningful activity patterns discovered |
+| Cardell-Oliver et al. (2013) | Residential, Irrigation | Hourly              | Litres/hour           | 900                 | Discover water use activities from smart meter readings | Hierarchical clustering, Automatic rule-based labelling | Significant and meaningful activity patterns discovered |
 
 **Model Behavior Rules:**
 
@@ -281,33 +281,6 @@ The results show that coarser temporal resolutions can improve model performance
 | Cominola et al. (2020) | Residential water use | Daily                 | L/min, gallons/hour   | 762 homes           | Analyze time-of-day and day-of-week distribution of showers | Data visualization                               | Patterns of consumption align with study findings            |
 
 Note: The table only includes the information relevant to the original paper summary.
-
-------------------------------------------------------------------------
-
-# Karamaziotis et al. - 2020 - An empirical investigation of water consumption forecasting methods.pdf
-
-**Extension:** pdf **Size:** 1.26M **Modified:** 2025-11-07 14:11:37
-
-## Summary
-
-**Type:** Review paper
-
-**Paper Summary:**
-
-This paper presents an empirical investigation of water consumption forecasting methods using a large database containing data from 2 million water meters in 274 unique postal codes. The authors analyze three alternative forecasting methodologies, including univariate forecasting techniques and machine-learning algorithms, with very promising results. They also evaluate the performance of these methods using various metrics, such as Mean Absolute Percentage Error (MAPE), symmetric Mean Absolute Percentage Error (sMAPE), and Root Mean Square Error (RMSE). The study aims to provide insights into the accuracy of water consumption forecasting methods and their potential applications in managing water resources.
-
-**Table:**
-
-| **Paper**                  | **Type of Water Use** | **Data Resolution** | **Flow Rate Unit(s)** | **Number of Homes**     | **Goals**                                      | **Methods**                                                    | **Results**                                             |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Karamaziotis et al. (2020) | Residential, Outdoor  | 1-minute            | L/min                 | 274 unique postal codes | Evaluate water consumption forecasting methods | Univariate forecasting techniques, machine-learning algorithms | Very promising results, MAPE, sMAPE, and RMSE evaluated |
-
-**Model Behavior Rules:**
-
-- Not specified in document.
-- The authors used a large database containing data from 2 million water meters in 274 unique postal codes.
-- They analyzed three alternative forecasting methodologies, including univariate forecasting techniques and machine-learning algorithms.
-- The study aimed to provide insights into the accuracy of water consumption forecasting methods and their potential applications in managing water resources.
 
 ------------------------------------------------------------------------
 
@@ -592,7 +565,7 @@ The authors evaluate the performance of their proposed models using real-world d
 
 | **Paper**                       | **Type of Water Use**              | **Data Resolution** | **Flow Rate Unit(s)** | **Number of Homes** | **Goals**                                          | **Methods**                                      | **Results**                                                             |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-| Oliveira-Esquerre et al. (2021) | Residential, Low-Income Households | 1-minute            | L/min                 | 100                 | Classification of water events and volume consumed | ERP (Eqs. (1) and (2)), Random Forest (RF) model | High accuracy rates for events and volume consumed (87% RF, 88% 1NNERP) |
+| Oliveira-Esquerre et al. (2021) | Residential, Low-Income Households | 10 seconds          | L/min                 | 7                   | Classification of water events and volume consumed | ERP (Eqs. (1) and (2)), Random Forest (RF) model | High accuracy rates for events and volume consumed (87% RF, 88% 1NNERP) |
 
 **Model Behavior Rules:**
 
@@ -625,7 +598,7 @@ The authors analyze the performance of their separation process using two studie
 
 | **Paper**                      | **Type of Water Use** | **Data Resolution** | **Flow Rate Unit(s)** | **Number of Homes** | **Goals**                                                                                 | **Methods**                                                                 | **Results**                                                                                                          |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-| Pastor-Jabaloyes et al. (2018) | Residential, Outdoor  | 1-minute            | L/h                   | 10                  | Disaggregate water end use events automatically and accurately classify single-use events | Advanced two-stage filtering, cropping algorithm, NSGA-II genetic algorithm | Accurately classified single-use events, overlapped events were cropped and separated into simpler single-use events |
+| Pastor-Jabaloyes et al. (2018) | Residential, Outdoor  | 5-second            | L/h                   | 20                  | Disaggregate water end use events automatically and accurately classify single-use events | Advanced two-stage filtering, cropping algorithm, NSGA-II genetic algorithm | Accurately classified single-use events, overlapped events were cropped and separated into simpler single-use events |
 
 **Model Behavior Rules:**
 
