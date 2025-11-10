@@ -251,9 +251,9 @@ MIT License - See individual package licenses for dependencies.
 
 ## 🔗 References
 
-- [Ollama Documentation](https://github.com/ollama/ollama)
-- [ragnar Package](https://github.com/mlverse/ragnar)
-- [ellmer Package](https://github.com/hadley/ellmer)
+- [Ollama Documentation](https://docs.ollama.com)
+- [ragnar Package](https://ragnar.tidyverse.org)
+- [ellmer Package](https://ellmer.tidyverse.org)
 
 ---
 
