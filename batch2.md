@@ -1,20 +1,16 @@
 # Alvisi et al. - 2007 - A short-term, pattern-based model for water-demand forecasting.pdf
 
-**Extension:** pdf
-**Size:** 742K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 742K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
 ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
----
+------------------------------------------------------------------------
 
 # Bastidas Pacheco et al. - 2023 - Variability in Consumption and End Uses of Water for Residential Users in Logan and Providence, Utah.pdf
 
-**Extension:** pdf
-**Size:** 5.38M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 5.38M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -26,10 +22,10 @@ ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
 **Findings**: The study found that:
 
-* Inefficient toilet events were common at all sites, with 23 of the 31 sites having more than 50% inefficient toilet events.
-* The percentage of efficient toilets varied across participant cities, suggesting geographical factors influenced toilet performance.
-* Faucet events were the third largest category of indoor water use by volume, and most faucet events were short duration and low flow rate.
-* Dishwasher cycles were indistinguishable from faucet events and were lumped in with them.
+-   Inefficient toilet events were common at all sites, with 23 of the 31 sites having more than 50% inefficient toilet events.
+-   The percentage of efficient toilets varied across participant cities, suggesting geographical factors influenced toilet performance.
+-   Faucet events were the third largest category of indoor water use by volume, and most faucet events were short duration and low flow rate.
+-   Dishwasher cycles were indistinguishable from faucet events and were lumped in with them.
 
 **Conclusion**: The study highlights the importance of considering outdoor water use in estimating total residential water demand. It also suggests that geographical factors can influence toilet performance, and future studies should investigate this further. Additionally, the study's findings have implications for improving water efficiency in residential settings.
 
@@ -37,13 +33,11 @@ ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
 **Recommendations for Future Research**: Further studies should investigate the impact of geographical factors on toilet performance and explore ways to improve the classification method used in this study. Additionally, studies that consider outdoor water use in estimating total residential water demand are needed to provide a more comprehensive understanding of water use patterns and behavior within individual households.
 
----
+------------------------------------------------------------------------
 
 # Beal et al. - 2013 - A novel mixed method smart metering approach to reconciling differences between perceived and actual.pdf
 
-**Extension:** pdf
-**Size:** 2.02M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 2.02M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -59,36 +53,34 @@ ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
 **Study Details Table**
 
-| Paper | Type of Water Use | Self-Reported Group | Sample Size |
-| --- | --- | --- | --- |
+| Paper              | Type of Water Use | Self-Reported Group                                                 | Sample Size       |
+|------------------|------------------|------------------|------------------|
 | Beal et al. (2013) | High, Medium, Low | Perceived high user group, self-nominated low water user households | Small sample size |
 
 **ANOVA Results**
 
-* Levene's test showed equal variances among the three groups.
-* Means from each self-report group were tested using the t-statistic at *p < 0.05, **p < 0.01, and ***p < 0.001.
+-   Levene's test showed equal variances among the three groups.
+-   Means from each self-report group were tested using the t-statistic at *p \< 0.05, **p \< 0.01, and*** p \< 0.001.
 
 **Post Hoc Analysis**
 
-* Tukey HSD test identified significant differences in means between the high and low water use groups.
+-   Tukey HSD test identified significant differences in means between the high and low water use groups.
 
 **References**
 
-* Beal et al. (2013)
-* Keselman et al. (1998)
-* Millock and Nauges (2010)
-* Olmstead and Stavins (2009)
-* Gregory and Di Leo (2003)
+-   Beal et al. (2013)
+-   Keselman et al. (1998)
+-   Millock and Nauges (2010)
+-   Olmstead and Stavins (2009)
+-   Gregory and Di Leo (2003)
 
 Note: The references listed are not exhaustive, but rather a selection of relevant sources cited in the paper.
 
----
+------------------------------------------------------------------------
 
 # Blokker et al. - 2010 - Simulating Residential Water Demand with a Stochastic End-Use Model..pdf
 
-**Extension:** pdf
-**Size:** 143K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 143K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -104,9 +96,9 @@ Note: The references listed are not exhaustive, but rather a selection of releva
 
 **Study Details Table**
 
-| Paper | Type of Water Use | Data Resolution | Flow Rate Unit(s) | Number of Homes | Study Location/Context | Goals | Methods | Performance Metrics | Results | Limitations |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Blokker et al. (2010) | Residential water demand | Small time scale, small spatial scale | Not specified | Not specified | Netherlands | Predict residential water demand patterns | Statistical information about users and appliances | Simulation results show good correspondence to measured water demands | - |
+| Paper                 | Type of Water Use        | Data Resolution                       | Flow Rate Unit(s) | Number of Homes | Study Location/Context | Goals                                     | Methods                                            | Performance Metrics                                                   | Results | Limitations |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Blokker et al. (2010) | Residential water demand | Small time scale, small spatial scale | Not specified     | Not specified   | Netherlands            | Predict residential water demand patterns | Statistical information about users and appliances | Simulation results show good correspondence to measured water demands | \-      |             |
 
 **Framework Summary**
 
@@ -118,13 +110,11 @@ The study proposes a stochastic end-use model for simulating residential water d
 
 **Applications**: Scenario studies, water quality distribution network models, optimizing water distribution networks.
 
----
+------------------------------------------------------------------------
 
 # Cahill et al. - 2013 - Household water use and conservation models using Monte Carlo techniques.pdf
 
-**Extension:** pdf
-**Size:** 1.17M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 1.17M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -140,43 +130,41 @@ The study proposes a stochastic end-use model for simulating residential water d
 
 **Summary Table:**
 
-| **Scope**: | Household water use and conservation models using Monte Carlo techniques |
-| **Number of Studies**: | 1 (Cahill et al., 2013) |
-| **Key Themes**: | Monte Carlo sampling, mixed integer optimization, least-cost conservation model |
-| **Research Gaps Identified**: | Existing models often rely on simplistic assumptions, do not account for household behavior complexity |
-| **Future Directions**: | Further development of the least-cost conservation model, application to other areas of AMI |
+| **Scope**: \| Household water use and conservation models using Monte Carlo techniques \|
+| **Number of Studies**: \| 1 (Cahill et al., 2013) \|
+| **Key Themes**: \| Monte Carlo sampling, mixed integer optimization, least-cost conservation model \|
+| **Research Gaps Identified**: \| Existing models often rely on simplistic assumptions, do not account for household behavior complexity \|
+| **Future Directions**: \| Further development of the least-cost conservation model, application to other areas of AMI \|
 
 **Study Details Table:**
 
-| **Paper**: | Cahill et al. (2013) |
-| **Type of Water Use**: Household water use and conservation |
-| **Data Resolution**: 500 households simulated using Monte Carlo sampling |
-| **Flow Rate Unit(s)**: Not specified |
-| **Number of Homes**: 500 households |
-| **Study Location/Context**: Single-family residential neighborhood in San Ramon, California |
-| **Goals**: Estimate household water demand and conservation potential |
-| **Methods**: Monte Carlo sampling, mixed integer optimization |
-| **Performance Metrics**: Not specified |
-| **Results**: Existing conditions model fits well with standard new homes data set, except for outdoor water use in winter. Least-cost conservation model estimates upper bound of reasonable conservation potential. |
+| **Paper**: \| Cahill et al. (2013) \|
+| **Type of Water Use**: Household water use and conservation \|
+| **Data Resolution**: 500 households simulated using Monte Carlo sampling \|
+| **Flow Rate Unit(s)**: Not specified \|
+| **Number of Homes**: 500 households \|
+| **Study Location/Context**: Single-family residential neighborhood in San Ramon, California \|
+| **Goals**: Estimate household water demand and conservation potential \|
+| **Methods**: Monte Carlo sampling, mixed integer optimization \|
+| **Performance Metrics**: Not specified \|
+| **Results**: Existing conditions model fits well with standard new homes data set, except for outdoor water use in winter. Least-cost conservation model estimates upper bound of reasonable conservation potential. \|
 
 **Framework Summary:**
 
 The study proposes a theoretical framework for estimating household water demand and conservation potential using Monte Carlo techniques and mixed integer optimization models. The framework includes:
 
-* Development of parameter probability distributions using Monte Carlo sampling
-* Simulation of water use in 500 households
-* Estimation of least-cost combination of long-term and short-term conservation actions
-* Application to other areas of AMI, such as outdoor watering event detection and water event disaggregation.
+-   Development of parameter probability distributions using Monte Carlo sampling
+-   Simulation of water use in 500 households
+-   Estimation of least-cost combination of long-term and short-term conservation actions
+-   Application to other areas of AMI, such as outdoor watering event detection and water event disaggregation.
 
 This framework provides a foundation for further research and development in the area of household water demand and conservation modeling.
 
----
+------------------------------------------------------------------------
 
 # Cardell-Oliver - 2013 - Water use signature patterns for analyzing household consumption using medium resolution meter data.pdf
 
-**Extension:** pdf
-**Size:** 204K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 204K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -192,9 +180,9 @@ This framework provides a foundation for further research and development in the
 
 **Study Details Table**
 
-| Paper | Type of Water Use | Data Resolution | Flow Rate Unit(s) | Number of Homes | Study Location/Context | Goals | Methods | Performance Metrics | Results | Limitations |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cardell-Oliver 2013 | Household consumption | Medium resolution | Liters/min | 1000 homes | Real-world smart metering trial | Characterize household water consumption | Water use signature patterns, cluster analysis, machine learning | Signature pattern metrics (volume, time) | Distinctive usage patterns of individuals, promising targets for water conservation | Limited to medium resolution data |
+| Paper               | Type of Water Use     | Data Resolution   | Flow Rate Unit(s) | Number of Homes | Study Location/Context          | Goals                                    | Methods                                                          | Performance Metrics                      | Results                                                                             | Limitations                       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Cardell-Oliver 2013 | Household consumption | Medium resolution | Liters/min        | 1000 homes      | Real-world smart metering trial | Characterize household water consumption | Water use signature patterns, cluster analysis, machine learning | Signature pattern metrics (volume, time) | Distinctive usage patterns of individuals, promising targets for water conservation | Limited to medium resolution data |
 
 **Framework Summary**
 
@@ -212,141 +200,11 @@ The paper introduces relative significance and population measures for water use
 
 The paper demonstrates the utility of water use signature patterns for characterizing household water consumption. The technique can identify distinctive usage patterns of individuals and highlight behaviors that are promising targets for water conservation. Pattern discovery can be automated using efficient and scalable computer programs.
 
----
-
-# Carrie Armel et al. - 2013 - Is disaggregation the holy grail of energy efficiency The case of electricity.pdf
-
-**Extension:** pdf
-**Size:** 943K
-**Modified:** 2025-11-10 10:02:07
-
-## Summary
-
-**Research Objective**: The primary goal of the paper "Is disaggregation the holy grail of energy efficiency: The case of electricity" by Carrie Armel et al. (2013) is to explore the potential of disaggregation, a technique that extracts appliance-level energy use data from an aggregate or whole-building energy signal.
-
-**Research Gap**: The authors identify a research gap in the lack of availability and variability of data for appliance recognition, which hinders the development of efficient algorithms for disaggregation. They also highlight the need for standardized performance metrics to compare algorithms.
-
-**Approach**: The authors discuss various approaches to disaggregation, including statistical methods, machine learning-based classification, and hierarchical classification based on current-voltage trajectory features. They also propose developing a common dataset that captures variability over appliances and operating conditions.
-
-**Key Findings/Contributions**: The study demonstrates the potential of disaggregation for energy efficiency by analyzing residential electricity data from 36 studies between 1995 and 2010. The authors show that disaggregation can lead to significant energy savings, with estimates ranging from 15% to 50% for computer and office equipment.
-
-**Relevance to AMI/Disaggregation**: This paper is highly relevant to the context of Advanced Metering Infrastructure (AMI) and disaggregation. The authors' work highlights the importance of developing efficient algorithms for appliance recognition, which can lead to improved energy efficiency and reduced energy consumption. The study also emphasizes the need for standardized performance metrics and a common dataset to facilitate algorithm development.
-
-**Methodology**: The authors discuss various machine learning-based classification approaches, including those using transient noise, current-voltage trajectory features, and harmonic signatures. They also propose developing custom hardware for real-time appliance identification.
-
-**Limitations**: The study has several limitations, including the lack of availability and variability of data for appliance recognition, which hinders the development of efficient algorithms. Additionally, the authors acknowledge that commercial use of disaggregation algorithms is currently insufficient due to the need for customized solutions.
-
-Overall, this paper provides a comprehensive overview of the potential benefits and challenges of disaggregation for energy efficiency. The authors' work highlights the importance of developing efficient algorithms for appliance recognition and emphasizes the need for standardized performance metrics and a common dataset to facilitate algorithm development.
-
----
-
-# Cominola et al. - 2018 - Implications of data sampling resolution on water use simulation, end-use disaggregation, and demand.pdf
-
-**Extension:** pdf
-**Size:** 1.87M
-**Modified:** 2025-11-10 10:02:07
-
-## Summary
-
-**Research Objective**: The primary goal of this paper is to explore the implications of data sampling resolution on water use simulation, end-use disaggregation, and demand.
-
-**Research Gap**: The study addresses the gap in knowledge regarding the tradeoffs between data sampling resolution and accuracy in end-use disaggregation, time to detect post-meter leaks, errors in estimating the volume and timing of peak flows, data storage requirements, and commercial availability.
-
-**Approach**: The authors developed a stochastic simulation model named STochastic Residential Water End-use Model (STREaM) to generate synthetic time series of water end use with diverse sampling resolutions. They applied a comparative framework on STREaM output to explore the implications of adopting different data sampling resolutions.
-
-**Key Findings/Contributions**: The study found that:
-
-* Adopting higher data sampling resolution leads to better accuracy in demand modeling and management, but also increases data storage requirements and costs.
-* Lower data sampling resolution can lead to errors in estimating peak flows and water demand peaks are underestimated by at least 20%.
-* Higher data sampling resolution implies larger data size, which may be limited or not commercially available.
-
-**Relevance to AMI/Disaggregation**: This study contributes to the development of smart water metering infrastructure (AMI) by exploring the tradeoffs between data sampling resolution and accuracy in end-use disaggregation. The findings can support further research and commercial development in water meters and deployment of AMI, as well as assist utilities in trading off benefits from second-to-minute data sampling resolution and costs of adopting and maintaining high-resolution metering infrastructures.
-
-**Summary Table:**
-
-| Scope | Topic Area and Timeframe of Literature Reviewed | Number of Studies Analyzed |
-| --- | --- | --- |
-|  | Water use simulation, end-use disaggregation, demand modeling, management | 15 studies |
-
-**Figures:**
-
-* Fig. 5: Multi-resolution assessment on STREaM generated water use data
-* Rows: Performance metrics (accuracy of leakage detection, end-use disaggregation, peak demand estimation)
-* Columns: Data sampling resolution (coarser to finer)
-
-Note: The summary table and figures are based on the provided text and may not be exhaustive.
-
----
-
-# Deoreo and Mayer - 2012 - Insights into declining single‐family residential water demands.pdf
-
-**Extension:** pdf
-**Size:** 736K
-**Modified:** 2025-11-10 10:02:07
-
-## Summary
-
-**Research Objective**: The primary goal of this paper is to present key data and findings from a 16-year data collection effort, closely examining changes in water use over time and providing a basis for future water supply planning and conservation program design.
-
-**Research Gap**: This study addresses the gap in knowledge regarding the trends in residential water demands, particularly indoor and outdoor uses, and their implications for water planning and conservation.
-
-**Approach**: The authors analyzed data from single-family residential studies over 16 years, comparing indoor and outdoor water use to demonstrate how water use is changing and what these trends suggest for water planning. They also examined the effects of high-efficiency fixtures and appliances on water demand.
-
-**Key Findings/Contributions**: The study found that:
-
-* Water use in single-family residences has declined since 1995, with a significant decrease in indoor water use.
-* High-efficiency toilets and clothes washers have contributed to these declines.
-* Shower use has remained relatively stable over time, while faucet use has decreased due to reduced frequency of use.
-* Leakage is a significant category of water use that can be misleading, as high-leakage accounts have a disproportionate effect on the average household water demand.
-* There is a nonlinear relationship between household domestic water use and the number of residents in the home.
-
-**Relevance to AMI/Disaggregation**: This study provides insights into the trends and drivers of residential water demands, which are essential for developing effective advanced metering infrastructure (AMI) systems and water event disaggregation models. The findings suggest that indoor water use is declining, while outdoor water use may be affected by economic recessions. Understanding these trends can help water utilities and policymakers develop targeted conservation programs and optimize AMI system design.
-
-**Conclusion**: This study highlights the importance of understanding residential water demands and their drivers for effective water management and conservation. The findings provide valuable insights for developing AMI systems and water event disaggregation models that can accurately capture and predict water demand patterns.
-
----
-
-# DiCarlo and Berglund - 2022 - Using advanced metering infrastructure data to evaluate consumer compliance with water advisories du.pdf
-
-**Extension:** pdf
-**Size:** 1.67M
-**Modified:** 2025-11-10 10:02:07
-
-## Summary
-
-Based on the provided PDF, I can extract some information about the paper "Using Advanced Metering Infrastructure Data to Evaluate Consumer Compliance with Water Advisories" by M.F. DiCarlo and E.Z. Berglund.
-
-**Summary:**
-
-The authors analyze a large dataset from an advanced metering infrastructure (AMI) system in Orange County, North Carolina, to quantify consumer compliance with water advisories during a major water main burst in November 2018. They use multiple linear regression to identify significant predictors of compliance and find that the most important factors are:
-
-1. Maximum possible consumption (MPC)
-2. Occupancy
-3. Total acreage
-
-The authors also report an R-squared value of 0.767 for their final model, indicating a good fit.
-
-**Key Findings:**
-
-1. The study explores consumer compliance with water advisories using AMI data.
-2. The analysis reveals significant relationships between MPC, occupancy, and total acreage with compliance.
-3. The authors find that the most important factors are MPC and occupancy, which are selected as significant predictors of compliance in both multiple linear regression and stepwise forward regression.
-
-**Implications:**
-
-1. The study provides insight into consumer behavior during water advisories using AMI data.
-2. The findings can inform utilities about management and communication strategies to improve compliance.
-3. The research highlights the potential of AMI data for evaluating consumer compliance with water advisories.
-
-Please note that this summary is based on a limited extraction from the PDF, and there may be additional information or details in the full paper that are not included here.
-
----
+------------------------------------------------------------------------
 
 # Gurung et al. - 2014 - Smart meters for enhanced water supply network modelling and infrastructure planning.pdf
 
-**Extension:** pdf
-**Size:** 5.38M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 5.38M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -354,27 +212,25 @@ The text is a scientific article discussing the benefits and limitations of smar
 
 The article discusses the following key points:
 
-1. Smart water meters require adequate penetration in a water supply zone to maximize their continuously gathered data.
-2. Recorded data from smart water meters can provide a foundation for developing demand curves, allowing for up-to-date household demand modeling and providing flexibility in modeling alternative water supplies.
-3. The widespread application of smart water meters is foreseeable in the future, as lower costs and quicker methods are developed for developing water end-use demand profiles to a high degree of accuracy.
-4. Real-time modeling of latest trends in water consumption can optimize the water supply network model, resulting in the deferral or elimination of infrastructure augmentation and associated costs.
+1.  Smart water meters require adequate penetration in a water supply zone to maximize their continuously gathered data.
+2.  Recorded data from smart water meters can provide a foundation for developing demand curves, allowing for up-to-date household demand modeling and providing flexibility in modeling alternative water supplies.
+3.  The widespread application of smart water meters is foreseeable in the future, as lower costs and quicker methods are developed for developing water end-use demand profiles to a high degree of accuracy.
+4.  Real-time modeling of latest trends in water consumption can optimize the water supply network model, resulting in the deferral or elimination of infrastructure augmentation and associated costs.
 
 The article also references several studies and publications, including:
 
-* Alcocer et al. (2004)
-* Aquacraft (2010)
-* Athuraliya et al. (2012)
-* Beal and Stewart (2011)
+-   Alcocer et al. (2004)
+-   Aquacraft (2010)
+-   Athuraliya et al. (2012)
+-   Beal and Stewart (2011)
 
 Overall, the article suggests that smart water meters have the potential to revolutionize the way we manage and plan water infrastructure, but highlights the need for further research and development to overcome current limitations.
 
----
+------------------------------------------------------------------------
 
 # Heydari and Stillwell - 2024 - Comparative Analysis of Supervised Classification Algorithms for Residential Water End Uses.pdf
 
-**Extension:** pdf
-**Size:** 1.79M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 1.79M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -386,9 +242,9 @@ Overall, the article suggests that smart water meters have the potential to revo
 
 **Key Findings/Contributions**: The study found that:
 
-* RF consistently demonstrated strong recall values across various scenarios.
-* SVM maintained high performances, peaking with a recall score of 0.99 for refrigerator events in the balanced scenario.
-* Log-reg and NN models exhibited heterogeneous results across different end uses, highlighting the importance of model selection and data balancing techniques.
+-   RF consistently demonstrated strong recall values across various scenarios.
+-   SVM maintained high performances, peaking with a recall score of 0.99 for refrigerator events in the balanced scenario.
+-   Log-reg and NN models exhibited heterogeneous results across different end uses, highlighting the importance of model selection and data balancing techniques.
 
 **Relevance to AMI, Outdoor Watering Detection, or Disaggregation**: This study is relevant to Advanced Metering Infrastructure (AMI) and water event disaggregation as it evaluates machine learning algorithms for residential water end-use classification. The findings can be applied to improve the accuracy and robustness of AMI systems in detecting outdoor watering events.
 
@@ -396,47 +252,45 @@ Overall, the article suggests that smart water meters have the potential to revo
 
 ### Study Details
 
-| Paper | Type of Water Use | Data Resolution | Flow Rate Unit(s) | Number of Homes | Study Location/Context |
-| --- | --- | --- | --- | --- | --- |
-| Heydari and Stillwell (2024) | Actual data | 1-minute | L/min | 12,000 | Various locations |
-| Heydari and Stillwell (2024) | 3,800 imbalanced | 1-minute | L/min | 3,800 | Urban area |
-| Heydari and Stillwell (2024) | 12,000 imbalanced | 1-minute | L/min | 12,000 | Rural area |
-| Heydari and Stillwell (2024) | 12,000 balanced | 1-minute | L/min | 12,000 | Urban area |
+| Paper                        | Type of Water Use | Data Resolution | Flow Rate Unit(s) | Number of Homes | Study Location/Context |
+|------------|------------|------------|------------|------------|------------|
+| Heydari and Stillwell (2024) | Actual data       | 1-minute        | L/min             | 12,000          | Various locations      |
+| Heydari and Stillwell (2024) | 3,800 imbalanced  | 1-minute        | L/min             | 3,800           | Urban area             |
+| Heydari and Stillwell (2024) | 12,000 imbalanced | 1-minute        | L/min             | 12,000          | Rural area             |
+| Heydari and Stillwell (2024) | 12,000 balanced   | 1-minute        | L/min             | 12,000          | Urban area             |
 
 ### Goals
 
-* Evaluate the performance of RF, SVM, Log-reg, and NN algorithms for residential water end-use classification.
-* Compare the effectiveness of different algorithms in various scenarios.
+-   Evaluate the performance of RF, SVM, Log-reg, and NN algorithms for residential water end-use classification.
+-   Compare the effectiveness of different algorithms in various scenarios.
 
 ### Methods
 
-* Employed grid search optimization to find the best hyperparameters for each model.
-* Used four datasets (actual, 3,800 imbalanced, 12,000 imbalanced, and 12,000 balanced) to evaluate the performance of each algorithm.
+-   Employed grid search optimization to find the best hyperparameters for each model.
+-   Used four datasets (actual, 3,800 imbalanced, 12,000 imbalanced, and 12,000 balanced) to evaluate the performance of each algorithm.
 
 ### Performance Metrics
 
-* Recall score
-* Precision
-* F1-score
+-   Recall score
+-   Precision
+-   F1-score
 
 ### Results
 
-* RF consistently demonstrated strong recall values across various scenarios.
-* SVM maintained high performances, peaking with a recall score of 0.99 for refrigerator events in the balanced scenario.
-* Log-reg and NN models exhibited heterogeneous results across different end uses.
+-   RF consistently demonstrated strong recall values across various scenarios.
+-   SVM maintained high performances, peaking with a recall score of 0.99 for refrigerator events in the balanced scenario.
+-   Log-reg and NN models exhibited heterogeneous results across different end uses.
 
 ### Limitations
 
-* The study did not include the NN model due to its different architectural nature compared to other models.
-* The optimal configuration for the NN model was determined using a 6-layer network with 30 neurons.
+-   The study did not include the NN model due to its different architectural nature compared to other models.
+-   The optimal configuration for the NN model was determined using a 6-layer network with 30 neurons.
 
----
+------------------------------------------------------------------------
 
 # Kowalski and Marshallsay - A SYSTEM FOR IMPROVED ASSESSMENT OF DOMESTIC WATER USE COMPONENTS.pdf
 
-**Extension:** pdf
-**Size:** 97.1K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 97.1K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -452,9 +306,9 @@ Overall, the article suggests that smart water meters have the potential to revo
 
 **Study Details Table**
 
-| Paper | Type of Water Use | Data Resolution | Flow Rate Unit(s) | Number of Homes | Study Location/Context | Goals | Methods | Performance Metrics |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kowalski and Marshallsay (2003) | Domestic water use components | High-resolution flow data | L/min | 100 households | UK | Reliable measurement of household components | Decision tree approach, novel software | Co-efficient of variation |
+| Paper                           | Type of Water Use             | Data Resolution           | Flow Rate Unit(s) | Number of Homes | Study Location/Context | Goals                                        | Methods                                | Performance Metrics       |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Kowalski and Marshallsay (2003) | Domestic water use components | High-resolution flow data | L/min             | 100 households  | UK                     | Reliable measurement of household components | Decision tree approach, novel software | Co-efficient of variation |
 
 **Framework Summary**
 
@@ -462,13 +316,11 @@ The authors propose a decision tree approach to deconstruct flow-time graphs int
 
 **Limitations**: The authors acknowledge that the method must be applicable to a larger sample of consumers to be widely acceptable.
 
----
+------------------------------------------------------------------------
 
 # Maggioni - 2015 - Water demand management in times of drought What matters for water conservation.pdf
 
-**Extension:** pdf
-**Size:** 362K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 362K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -484,54 +336,48 @@ The authors propose a decision tree approach to deconstruct flow-time graphs int
 
 **Detailed Content**
 
-* **Study Details Table**
-	+ Paper: Maggioni (2015) - Water demand management in times of drought: What matters for water conservation
-	+ Type of Water Use: Residential
-	+ Data Resolution: Yearly percentage change in precipitation and real per capita GDP
-	+ Flow Rate Unit(s): Not specified
-	+ Number of Homes: Not specified
-	+ Study Location/Context: Southern California, USA
-	+ Goals: Analyze the effectiveness of different water conservation strategies during droughts
-	+ Methods: Panel data approach using a dummy variable for local ordinances limiting outdoor watering
-	+ Performance Metrics: Correlation coefficients and statistical significance tests
-* **Framework Summary**
-	+ Theoretical Contribution: This study contributes to our understanding of the most effective policies for water conservation, particularly in the context of droughts.
-	+ Key Constructs/Variables: Population served, yearly percentage change in water rates, dollar amount of rebates for water-efficient equipment, and local ordinances limiting outdoor watering
-	+ Applications: The findings can inform policy decisions for water agencies and AMI systems to reduce water consumption during droughts.
-	+ Validation: The study uses a panel data approach to validate the effectiveness of different policies.
-	+ Implications: The results suggest that mandates to curb outdoor water uses are effective in reducing residential per capita water usage, while water rates and subsidies for water-saving devices are not.
+-   **Study Details Table**
+    -   Paper: Maggioni (2015) - Water demand management in times of drought: What matters for water conservation
+    -   Type of Water Use: Residential
+    -   Data Resolution: Yearly percentage change in precipitation and real per capita GDP
+    -   Flow Rate Unit(s): Not specified
+    -   Number of Homes: Not specified
+    -   Study Location/Context: Southern California, USA
+    -   Goals: Analyze the effectiveness of different water conservation strategies during droughts
+    -   Methods: Panel data approach using a dummy variable for local ordinances limiting outdoor watering
+    -   Performance Metrics: Correlation coefficients and statistical significance tests
+-   **Framework Summary**
+    -   Theoretical Contribution: This study contributes to our understanding of the most effective policies for water conservation, particularly in the context of droughts.
+    -   Key Constructs/Variables: Population served, yearly percentage change in water rates, dollar amount of rebates for water-efficient equipment, and local ordinances limiting outdoor watering
+    -   Applications: The findings can inform policy decisions for water agencies and AMI systems to reduce water consumption during droughts.
+    -   Validation: The study uses a panel data approach to validate the effectiveness of different policies.
+    -   Implications: The results suggest that mandates to curb outdoor water uses are effective in reducing residential per capita water usage, while water rates and subsidies for water-saving devices are not.
 
----
+------------------------------------------------------------------------
 
 # Makki et al. - 2013 - Revealing the determinants of shower water end use consumption enabling better targeted urban water.pdf
 
-**Extension:** pdf
-**Size:** 1.99M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 1.99M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
 ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
----
+------------------------------------------------------------------------
 
 # Mazzoni et al. - 2021 - Automated Household Water End-Use Disaggregation through Rule-Based Methodology.pdf
 
-**Extension:** pdf
-**Size:** 925K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 925K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
 ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
----
+------------------------------------------------------------------------
 
 # Mead and Aravinthan - 2009 - Investigation of household water consumption using smart metering system.pdf
 
-**Extension:** pdf
-**Size:** 1.3M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 1.3M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -547,19 +393,17 @@ ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
 **Detailed Content**
 
-* **Showerheads**: The study found that showerhead flow rates are lower than manufacturer's estimates, with ultra-low-flow showerheads performing well in reducing water usage.
-* **Showers**: The average duration of showers is 7.2 ± 4 minutes, with most showers exceeding the recommended 4-minute duration.
-* **Water Conservation**: The study suggests that ongoing monitoring programs can encourage residents to be accountable for their water use and behavior, leading to significant indoor water savings through the installation of high-efficiency plumbing fixtures and appliances.
+-   **Showerheads**: The study found that showerhead flow rates are lower than manufacturer's estimates, with ultra-low-flow showerheads performing well in reducing water usage.
+-   **Showers**: The average duration of showers is 7.2 ± 4 minutes, with most showers exceeding the recommended 4-minute duration.
+-   **Water Conservation**: The study suggests that ongoing monitoring programs can encourage residents to be accountable for their water use and behavior, leading to significant indoor water savings through the installation of high-efficiency plumbing fixtures and appliances.
 
 **Limitations**: The study is a pilot project with a small sample size, and further research is needed to extend the findings to a larger number of households with diverse community members.
 
----
+------------------------------------------------------------------------
 
 # Newing et al. - 2023 - Smart water metering as a non-invasive tool to infer dwelling type and occupancy – Implications for.pdf
 
-**Extension:** pdf
-**Size:** 3.62M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 3.62M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -577,25 +421,21 @@ ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
 Overall, this paper contributes to the growing body of research exploring the potential of smart water metering data for applications beyond traditional uses. By leveraging high-temporal-resolution water consumption data and NIOM, the authors demonstrate a non-intrusive approach to inferring dwelling type and occupancy patterns, which can have significant implications for various stakeholders in the water supply sector.
 
----
+------------------------------------------------------------------------
 
 # Nguyen et al. - 2014 - An autonomous and intelligent expert system for residential water end-use classification.pdf
 
-**Extension:** pdf
-**Size:** 4.31M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 4.31M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
 ERROR: Failed to embed batch after 3 attempts: HTTP 500 Internal Server Error.
 
----
+------------------------------------------------------------------------
 
 # Nguyen et al. - 2015 - Intelligent autonomous system for residential water end use classification Autoflow.pdf
 
-**Extension:** pdf
-**Size:** 2.82M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 2.82M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -603,34 +443,27 @@ Based on the provided PDF, here is a summary of the paper:
 
 **Title:** Intelligent Autonomous System for Residential Water End Use Categorization
 
-**Abstract:**
-This paper presents an intelligent autonomous system for categorizing residential water end use. The system uses a hybrid approach combining Hidden Markov Models (HMM) and Artificial Neural Networks (ANN) to classify events into seven categories: shower, faucet, clothes washer, dishwasher, toilet, bathtub, and irrigation.
+**Abstract:** This paper presents an intelligent autonomous system for categorizing residential water end use. The system uses a hybrid approach combining Hidden Markov Models (HMM) and Artificial Neural Networks (ANN) to classify events into seven categories: shower, faucet, clothes washer, dishwasher, toilet, bathtub, and irrigation.
 
-**Methodology:**
-The system consists of three main modules:
+**Methodology:** The system consists of three main modules:
 
-1. Single Event Analysis: HMM is used to analyze individual events.
-2. Combined Event Analysis: ANN is used to analyze combined events.
-3. Adaptive Learning Module: The system learns from the data and adapts to new patterns.
+1.  Single Event Analysis: HMM is used to analyze individual events.
+2.  Combined Event Analysis: ANN is used to analyze combined events.
+3.  Adaptive Learning Module: The system learns from the data and adapts to new patterns.
 
-**Results:**
-The system achieves an accuracy higher than that of the first version, with a comparison table showing the improvement in accuracy.
+**Results:** The system achieves an accuracy higher than that of the first version, with a comparison table showing the improvement in accuracy.
 
-**Software Application:**
-The Autoﬂow software application is developed using Matlab programming language, offering different types of results presentations. The main interface provides important information to customers, such as a summary of classified volume and detailed description of each event.
+**Software Application:** The Autoﬂow software application is developed using Matlab programming language, offering different types of results presentations. The main interface provides important information to customers, such as a summary of classified volume and detailed description of each event.
 
-**Conclusion:**
-The intelligent autonomous system for residential water end use categorization demonstrates the potential for accurate classification of events using a hybrid approach. The software application provides a user-friendly interface for customers to access their data.
+**Conclusion:** The intelligent autonomous system for residential water end use categorization demonstrates the potential for accurate classification of events using a hybrid approach. The software application provides a user-friendly interface for customers to access their data.
 
 **Keywords:** Intelligent Autonomous System, Residential Water End Use Categorization, Hybrid Approach, Hidden Markov Models, Artificial Neural Networks
 
----
+------------------------------------------------------------------------
 
 # Pavlou et al. - 2024 - Monitoring domestic water consumption a comparative study of model-based and data-driven end-use di.pdf
 
-**Extension:** pdf
-**Size:** 1.03M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 1.03M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -644,13 +477,11 @@ The intelligent autonomous system for residential water end use categorization d
 
 **Relevance to AMI/Disaggregation**: This paper contributes to the development of advanced metering infrastructure (AMI) by proposing novel methods for disaggregating end-use consumption in domestic water usage. The study's findings have implications for optimizing water consumption patterns, reducing waste, and promoting water conservation.
 
----
+------------------------------------------------------------------------
 
 # Rosenberg et al. - 2007 - Modeling integrated water user decisions in intermittent supply systems.pdf
 
-**Extension:** pdf
-**Size:** 1.11M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 1.11M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -664,60 +495,11 @@ The intelligent autonomous system for residential water end use categorization d
 
 **Relevance to AMI, Outdoor Watering Detection, or Disaggregation**: This study contributes to the development of smart water metering by considering the complex interactions between water users and their environment. The approach can be applied to other areas of water management, such as outdoor watering detection and demand-side management.
 
----
-
-# Rupiper et al. - 2024 - AMI water meters deliver end-use water and financial savings in leaky households experimental evide.pdf
-
-**Extension:** pdf
-**Size:** 558K
-**Modified:** 2025-11-10 10:02:07
-
-## Summary
-
-**Paper Summary**
-
-The paper "AMI water meters deliver end-use water and financial savings in leaky households experimental evidence" by Amanda M Rupiper et al., published in 2024, investigates the impact of Advanced Metering Infrastructure (AMI) on water conservation in leaky households.
-
-**Research Objective**
-The primary goal of this study is to determine whether AMI can deliver end-use water and financial savings in leaky households.
-
-**Research Gap**
-Leaky households are a significant source of water loss, with approximately 12% of water in U.S. urban systems lost to end-user indoor leaks. Existing strategies for detecting leaks in the distribution system have proven difficult, and end-users typically become aware of their leaks through visible signs or sizable increases in their water bills.
-
-**Approach**
-The authors conducted a randomized controlled trial (RCT) to evaluate the effectiveness of AMI in reducing water consumption in leaky households. They assigned households to either an AMI+ treatment group or a control group and monitored their water usage over a period of time.
-
-**Key Findings/Contributions**
-The study found that households in the AMI+ treatment group reduced their water consumption by 5.24 gallons per household per day, with 92.8% of the estimated water savings attributed to leak reduction. The authors also found that homes with leaks realized financial savings of $60/year and a treatment payback period of four years.
-
-**Relevance to AMI/Disaggregation**
-This study highlights the potential of AMI to deliver end-use water and financial savings in leaky households, which is a significant contribution to the field of smart water metering. The findings also emphasize the importance of addressing leaks as a key strategy for improving water conservation and reducing water loss.
-
-**Detailed Content**
-
-* **Study Details**
-	+ Paper: Rupiper et al., 2024
-	+ Type of Water Use: End-use water consumption
-	+ Data Resolution: Hourly interval data
-	+ Flow Rate Unit(s): Gallons per day
-	+ Number of Homes: Not specified
-	+ Study Location/Context: California, USA
-	+ Goals: Evaluate the effectiveness of AMI in reducing water consumption in leaky households
-	+ Methods: Randomized controlled trial (RCT)
-	+ Performance Metrics: Water savings, financial savings
-* **Key Findings**
-	+ Average reduction in water consumption: 5.24 gallons per household per day
-	+ Percentage of estimated water savings attributed to leak reduction: 92.8%
-	+ Financial savings for households with leaks: $60/year
-	+ Treatment payback period: Four years
-
----
+------------------------------------------------------------------------
 
 # Suero et al. - 2012 - Estimating and Verifying United States Households’ Potential to Conserve Water.pdf
 
-**Extension:** pdf
-**Size:** 424K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 424K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -729,21 +511,19 @@ This study highlights the potential of AMI to deliver end-use water and financia
 
 **Key Findings/Contributions**: The study found that:
 
-* Observed and predicted distributions of water savings are skewed, with a small number of households showing potential to save more water.
-* Regression and hybrid model results indicate that both technological (flow rates of appliances) and behavioral (length of use, frequency of use) factors significantly influence water saved.
-* Household characteristics, such as the number of residents, performance, and frequency of appliance use, distinguish households with high water-saving potential from those with low potential.
+-   Observed and predicted distributions of water savings are skewed, with a small number of households showing potential to save more water.
+-   Regression and hybrid model results indicate that both technological (flow rates of appliances) and behavioral (length of use, frequency of use) factors significantly influence water saved.
+-   Household characteristics, such as the number of residents, performance, and frequency of appliance use, distinguish households with high water-saving potential from those with low potential.
 
 **Relevance to AMI/Disaggregation**: This study contributes to the development of engineering methods for estimating water savings from retrofits and provides insights into identifying subcategories of households that have potential to save more water. The findings can inform water utilities in targeting conservation efforts and developing effective demand management strategies.
 
 The paper highlights the importance of considering both technological and behavioral factors in estimating water savings, which is relevant to advanced metering infrastructure (AMI) and water event disaggregation. By identifying the most water-efficient households, utilities can focus on targeted interventions to maximize overall water conservation.
 
----
+------------------------------------------------------------------------
 
 # Syme et al. - 2004 - Predicting and understanding home garden water use.pdf
 
-**Extension:** pdf
-**Size:** 88.6K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 88.6K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -759,13 +539,11 @@ The paper highlights the importance of considering both technological and behavi
 
 Note: The paper focuses on understanding the relationship between household attitudes towards gardening and their external water consumption, rather than directly addressing advanced metering infrastructure (AMI) or water event disaggregation. However, the study's findings on the importance of considering quality of life and social factors in understanding water consumption patterns are relevant to these topics.
 
----
+------------------------------------------------------------------------
 
 # Sønderlund et al. - 2014 - Using Smart Meters for Household Water Consumption Feedback Knowns and Unknowns.pdf
 
-**Extension:** pdf
-**Size:** 311K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 311K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -781,13 +559,11 @@ Note: The paper focuses on understanding the relationship between household atti
 
 Overall, the paper provides insights into the effectiveness of water consumption feedback technology in promoting water saving behavior, which is relevant to the context of advanced metering infrastructure (AMI) and water event disaggregation.
 
----
+------------------------------------------------------------------------
 
 # Willis et al. - GOLD COAST DOMESTIC WATER END USE STUDY.pdf
 
-**Extension:** pdf
-**Size:** 483K
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 483K **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
@@ -799,21 +575,19 @@ Overall, the paper provides insights into the effectiveness of water consumption
 
 **Key Findings/Contributions**: The study found that:
 
-* The average daily per capita water consumption in the Gold Coast households is 157.2 liters, with showering being the highest end use (33% of total use).
-* There are significant variations in water end use consumption between individual households and socioeconomic regions.
-* High socioeconomic regions consume more water per capita than lower socioeconomic regions.
+-   The average daily per capita water consumption in the Gold Coast households is 157.2 liters, with showering being the highest end use (33% of total use).
+-   There are significant variations in water end use consumption between individual households and socioeconomic regions.
+-   High socioeconomic regions consume more water per capita than lower socioeconomic regions.
 
 **Relevance to AMI/Disaggregation**: The study provides insights into water end use patterns in Australian households, which can inform the development of advanced metering infrastructure (AMI) systems that can accurately disaggregate water consumption. The findings also highlight the importance of considering socioeconomic factors in understanding water end use patterns.
 
 Overall, the paper contributes to our understanding of water end use consumption patterns in Australian households and provides valuable insights for the development of AMI systems and water conservation strategies.
 
----
+------------------------------------------------------------------------
 
 # residential_indoor_wc_study_0.pdf
 
-**Extension:** pdf
-**Size:** 2.01M
-**Modified:** 2025-11-10 10:02:07
+**Extension:** pdf **Size:** 2.01M **Modified:** 2025-11-10 10:02:07
 
 ## Summary
 
